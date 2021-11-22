@@ -1,0 +1,29 @@
+/*
+    ---color list---
+    first : #692be2 
+    text:color: rgb(238, 238, 238)  
+
+*/
+.nav {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+  font-weight: 700;
+  background-color: #692be2;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  width: 1000px;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.nav ul li {
+  display: flex;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+}

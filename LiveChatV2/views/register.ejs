@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/login.css" />
+    <title><%=title %></title>
+  </head>
+  <body>
+    <div class="allbody">
+      <div class="login-genel">
+        <div class="login-banner">
+          <span class="welcome">Welcome</span>
+          <div class="banner-box"><span>Chat</span></div>
+        </div>
+        <div class="login-form">
+          <form method="POST" action="/register">
+            <input type="text" name="username" placeholder="Username" /><br />
+            <input type="text" name="email" placeholder="Email" /><br />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+            /><br />
+            <button>Register</button>
+          </form>
+          <div class="login-footer">
+            <span>If you have a account, you can sign In here.</span
+            ><span><a href="/">Sign In</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
